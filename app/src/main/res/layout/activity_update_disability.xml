@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Filter">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:id="@+id/appBar"
+        android:fitsSystemWindows="true"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:contentScrim="@color/white"
+            app:collapsedTitleTextAppearance="@style/MyCollapsingToolBarAppearance"
+            app:expandedTitleTextAppearance="@style/MyCollapsingToolBarAppearanceExpand"
+            android:background="@color/white"
+            app:maxLines="2"
+            app:expandedTitleGravity="fill_vertical"
+            app:expandedTitleMarginTop="100dp"
+            app:layout_scrollFlags="exitUntilCollapsed|scroll"
+            android:fitsSystemWindows="true"
+            app:title="What's your disability?">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                app:menu="@menu/filter_menu"
+                app:layout_scrollFlags="scroll|enterAlways"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical">
+        <Spinner
+            android:id="@+id/DisabilitySpinner"
+            android:layout_width="match_parent"
+            android:padding="20dp"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/secondDisabilitySpinner"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:padding="20dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Your disability makes you strong not weaker so don't hesitate to share it."
+            android:textAlignment="center" />
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:fontFamily="@font/montserrat"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="30dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:background="@drawable/roundbutton5"
+        android:text="@string/save" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

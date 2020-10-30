@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+    <TextView
+        android:id="@+id/txtHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:fontFamily="@font/montserrat"
+        android:textStyle="bold"
+        android:text="@string/likes_screen"/>
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/noLikesRelative"
+        android:layout_below="@+id/txtHead"
+        android:layout_above="@+id/below"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/you_don_t_have_any_likes_yet"
+            android:hint="@string/notlike"
+            android:textStyle="bold"
+            android:fontFamily="@font/montserrat"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="25dp"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:visibility="visible"
+        android:id="@+id/likesRelative"
+        android:layout_above="@+id/below"
+        android:layout_below="@+id/txtHead"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_below="@+id/relative"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"/>
+        <ProgressBar
+            android:id="@+id/progressNearBy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:progressTint="@color/black"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+<!--<LinearLayout-->
+<!--    android:id="@+id/below"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:layout_alignParentBottom="true"-->
+<!--    android:orientation="vertical">-->
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="DO you want to get more likes?"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="30dp"/>-->
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:text="You have not many likes yet.Get 10x more likes with boost"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="25dp"/>-->
+<!--    <Button-->
+<!--        android:id="@+id/btnMoreLikes"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="bottom"-->
+<!--        android:gravity="center"-->
+<!--        android:fontFamily="@font/montserrat"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_margin="30dp"-->
+<!--        android:textSize="18dp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textColor="@android:color/white"-->
+<!--        android:background="@drawable/roundbutton5"-->
+<!--        android:text="GET MORE LIKES" />-->
+<!--</LinearLayout>-->
+</RelativeLayout>

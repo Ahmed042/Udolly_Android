@@ -1,0 +1,262 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">TZ</string>
+    <string name="terms">By Clicking Login, you agree with our Terms.
+            Learn how we process your data in our Privacy Policy and Cookies Policy</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="description">Tell others what\'s interesting about you. What makes you stand out</string>
+    <string name="facebook_app_id">348919153151202</string>
+    <string name="fb_login_protocol_scheme">fb348919153151202</string>
+    <string name="zapping">ZAPPING</string>
+    <string name="nearby">NEARBY</string>
+    <string name="likes">LIKES </string>
+    <string name="messages">MESSAGES</string>
+    <string name="write_your_message">Write your message....</string>
+    <string name="profile">Profile</string>
+    <string name="notFound">Not Found</string>
+    <string name="customize_your_profile">Customize your profile</string>
+    <string name="filter">Filter</string>
+    <string name="settings">Settings</string>
+    <string name="sent_likes">Sent likes</string>
+    <string name="become_a_vip">BECOME A VIP</string>
+    <string name="settingTitle">Settings</string>
+    <string name="account">Account</string>
+    <string name="notifications">Notifications</string>
+    <string name="privacy">Privacy</string>
+    <string name="help">Help</string>
+    <string name="info_and_terms">Info and Terms</string>
+    <string name="application_language">Application Language</string>
+    <string name="accountTitle">Account</string>
+    <string name="change_your_email">Change your Email</string>
+    <string name="change_your_password">Change your Password</string>
+    <string name="restore_purchases">Restore Purchases</string>
+    <string name="hide_my_profile">Hide my profile</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="appLanguage">Choose Application Language</string>
+    <string name="english">English</string>
+    <string name="urdu">Urdu</string>
+    <string name="spanish">Spanish</string>
+    <string name="french">French</string>
+    <string name="italian">Italian</string>
+    <string name="change_language">Change Language</string>
+    <string name="you_have_nt_sent_any_likes_yet">You have\'nt sent any likes yet.</string>
+    <string name="home_town">HOME TOWN</string>
+    <string name="profession">PROFESSION</string>
+    <string name="looking_for">LOOKING FOR</string>
+    <string name="relationship_status">RELATIONSHIP STATUS</string>
+    <string name="disability">DISABILITY</string>
+    <string name="language">LANGUAGE</string>
+    <string name="block_user">BLOCK USER</string>
+    <string name="descriptionText">Description</string>
+    <string name="message">Message</string>
+    <string name="nearbySmall">Nearby</string>
+    <string name="messagesSmall">Messages</string>
+    <string name="completeProfile">Complete your profile</string>
+    <string name="filterTitle">Filter</string>
+    <string name="what_do_you_want_to_see">What do you want to see?</string>
+    <string name="gender">GENDER</string>
+    <string name="women">Women</string>
+    <string name="age">AGE</string>
+    <string name="_18_to_90_years">18 to 90 years</string>
+    <string name="distance">DISTANCE</string>
+    <string name="distance_doesn_t_matter">Distance doesn\'t matter</string>
+    <string name="disability_doesn_t_matter">Disability doesn\'t matter</string>
+    <string name="vip_filter">VIP Filter</string>
+    <string name="all">All</string>
+    <string name="favourite_sports">FAVOURITE SPORTS</string>
+    <string name="education">EDUCATION</string>
+    <string name="smoker">SMOKER</string>
+    <string name="religion">RELIGION</string>
+    <string name="drinking">DRINKING</string>
+    <string name="exercise">EXERCISE</string>
+    <string name="tattoos">TATTOOS</string>
+    <string name="pets">PETS</string>
+    <string name="diet">DIET</string>
+    <string name="children">CHILDREN</string>
+    <string name="reset_filters">RESET FILTERS</string>
+    <string name="reset_filters_op">Reset Filters</string>
+    <string name="save">Save</string>
+    <string name="ask_me">Ask me</string>
+    <string name="thin">Thin</string>
+    <string name="normal">Normal</string>
+    <string name="athletic">Athletic</string>
+    <string name="chubby">Chubby</string>
+    <string name="bodyTypeHave">What body type do you have?</string>
+    <string name="dietHeading">What diet do you prefer?</string>
+    <string name="drinkHeading">Do you drink alcohol?</string>
+    <string name="frequently">Frequently</string>
+    <string name="socially">Socially</string>
+    <string name="never">Never</string>
+    <string name="educationHeading">What\'s your education?</string>
+    <string name="no_degree">No degree</string>
+    <string name="special_school">Special school</string>
+    <string name="some_high_school">Some high school</string>
+    <string name="associate_degree">Associate degree</string>
+    <string name="high_school_graduate">High school graduate</string>
+    <string name="some_college_studies">Some college studies</string>
+    <string name="current_college_student">Current college student</string>
+    <string name="bachelor_s_degree">Bachelor\'s degree</string>
+    <string name="master_s_degree">Master\'s degree</string>
+    <string name="phd_md_post_doctorate">PhD/MD/Post doctorate</string>
+    <string name="other">Other</string>
+    <string name="sportsHeading">Do you do sports?</string>
+    <string name="active">Active</string>
+    <string name="sometimes">Sometimes</string>
+    <string name="almost_never">Almost Never</string>
+    <string name="favHeading">What\'s your favourite sports</string>
+    <string name="soccer">Soccer</string>
+    <string name="basketball">Basketball</string>
+    <string name="volleyball">Volleyball</string>
+    <string name="swimming">Swimming</string>
+    <string name="hand_ball">Hand ball</string>
+    <string name="tennis">Tennis</string>
+    <string name="surfing">Surfing</string>
+    <string name="paddle_tennis">Paddle Tennis</string>
+    <string name="fitness">Fitness</string>
+    <string name="combat_sports">Combat Sports</string>
+    <string name="extreme_sports">Extreme Sports</string>
+    <string name="sports_with_animals">Sports with animals</string>
+    <string name="omnivore">Omnivore</string>
+    <string name="vegetarian">Vegetarian</string>
+    <string name="kosher">Kosher</string>
+    <string name="halal">Halal</string>
+    <string name="f_sica">Physics</string>
+    <string name="auditiva">Auditory</string>
+    <string name="visual">Visual</string>
+    <string name="intelectual">Intelectual</string>
+    <string name="mental">Mental</string>
+    <string name="da_o_cerebral_adquirido">Mental Acquired brain damage</string>
+    <string name="autismo_o_asperger">Autism or Asperger\'s</string>
+    <string name="s_ndrome_de_down">Down\'s Syndrome</string>
+    <string name="persona_a_cargo_de_un_a_minusvalido_a">Person in charge of a handicapped person</string>
+    <string name="distance_up_to_10_km">Distance up to 10 km</string>
+    <string name="distance_up_to_50_km">Distance up to 50 km</string>
+    <string name="distance_up_to_100_km">Distance up to 100 km</string>
+    <string name="distance_up_to_500_km">Distance up to 500 km</string>
+    <string name="running">Running</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="want_someday">Want someday</string>
+    <string name="don_t_want">Don\'t Want</string>
+    <string name="have_amp_want_more"><![CDATA[Have & want more]]></string>
+    <string name="have_amp_don_t_want_more"><![CDATA[Have & don\'t want more]]></string>
+    <string name="arabic">Arabic</string>
+    <string name="turkish">Turkish</string>
+    <string name="dog_s">Dog( s )</string>
+    <string name="cat_s">Cat( s )</string>
+    <string name="bird_s">Bird( s )</string>
+    <string name="rabbit">Rabbit</string>
+    <string name="lots">Lots</string>
+    <string name="none">None</string>
+    <string name="single">Single</string>
+    <string name="in_a_relationship">In a relationship</string>
+    <string name="married">Married</string>
+    <string name="separated">Separated</string>
+    <string name="divorced">Divorced</string>
+    <string name="widowed">Widowed</string>
+    <string name="in_an_open_relationship">In an open relationship</string>
+    <string name="it_s_complicated">It\'s complicated</string>
+    <string name="christian">Christian</string>
+    <string name="muslim">Muslim</string>
+    <string name="buddhist">Buddhist</string>
+    <string name="orthodox">Orthodox</string>
+    <string name="jewish">Jewish</string>
+    <string name="spiritual">Spiritual</string>
+    <string name="believing_but_not_religious">Believing but not religious</string>
+    <string name="neither_believing_nor_religious">Neither believing nor religious</string>
+    <string name="no">No</string>
+    <string name="yes_regularly">Yes, regularly</string>
+    <string name="only_after_sex">Only after sex</string>
+    <string name="many">Many</string>
+    <string name="some">Some</string>
+    <string name="only_inconspicuous">Only Inconspicuous</string>
+    <string name="heightHeading">What\'s your height?</string>
+    <string name="liveHeading">Where do you live?</string>
+    <string name="kidsHeading">What about kids?</string>
+    <string name="languageHeading">What languages do you speak?</string>
+    <string name="musicHeading">What kind of music do you like?</string>
+    <string name="petsHeading">Do you have pets?</string>
+    <string name="professionHeading">What\'s your profession?</string>
+    <string name="relationHeading">What\'s your relationship status?</string>
+    <string name="religionHeading">Do you identify with a religion?</string>
+    <string name="smokeHeading">Do you smoke?</string>
+    <string name="write_your_messageHeading">Write your message</string>
+    <string name="sureReset">Are you sure you want to reset filters?</string>
+    <string name="add">Add</string>
+    <string name="add_photos">ADD PHOTOS</string>
+    <string name="report_this_profile">REPORT THIS PROFILE</string>
+    <string name="UserNameHeading">What\'s your new Username?</string>
+    <string name="log_out">LOG OUT</string>
+    <string name="you_don_t_have_any_likes_yet">You don\'t have any likes yet.</string>
+    <string name="music">MUSIC</string>
+    <string name="we_are_here_to_help_you_anytime" >We are here to help you anytime</string>
+    <string name="not_found_any_user" translatable="true" tools:ignore="MissingTranslation">Not found any user </string>
+    <string name="notmatch" tools:ignore="MissingTranslation">You don\'t have any matches yet </string>
+
+    <string name="blocked_users" tools:ignore="MissingTranslation">Blocked Users</string>
+    <string name="your_privacy_is_our_concern" tools:ignore="MissingTranslation">Your privacy is our concern</string>
+
+    <string name="info_and_terms_about_us" tools:ignore="MissingTranslation">Info and terms about us</string>
+    <string name="manage_notifications_with_us" tools:ignore="MissingTranslation">Manage Notifications with us</string>
+    <string name="you_don_t_have_any_matches_yet" tools:ignore="MissingTranslation">You don\'t have any matches yet.</string>
+    <string name="notlike" tools:ignore="MissingTranslation" />
+    <string name="info_and_term" tools:ignore="MissingTranslation">Info and Term</string>
+
+    <string name="you_haven_t_blocked_any_user_yet" tools:ignore="MissingTranslation">You haven\'t blocked any user yet.</string>
+    <string name="privacy_policy" tools:ignore="MissingTranslation">Privacy Policy</string>
+
+    <string name="helpHeading" tools:ignore="MissingTranslation">Help</string>
+    <string name="_14_99_month" tools:ignore="MissingTranslation">14.99$ / month</string>
+    <string name="you_can_message_any_user_anytime_no_restrictions_and_constraints_to_message_only_matches" tools:ignore="MissingTranslation">You can message any user anytime no restrictions and constraints to message only matches.</string>
+    <string name="you_can_use_vip_filters_to_find_particular_type_of_person" tools:ignore="MissingTranslation">You can use VIP filters to find particular type of person.</string>
+    <string name="you_can_see_the_users_who_have_liked_your_profile" tools:ignore="MissingTranslation">You can see the users who have liked your profile.</string>
+    <string name="become_a_vip_now" tools:ignore="MissingTranslation">BECOME A VIP NOW</string>
+    <string name="are_you_vip">Are you sure you want to become a VIP?</string>
+    <string name="become_vip">Become a VIP</string>
+    <string name="not_found_any_users">Not found any users.</string>
+    <string name="login_with_phone">LOGIN WITH PHONE</string>
+    <string name="login_with_email">LOGIN WITH EMAIL</string>
+    <string name="login_with_facebook">LOGIN WITH FACEBOOK</string>
+    <string name="login_with_google">LOGIN WITH GOOGLE</string>
+    <string name="you_don_t_have_any_conversations_yet">You don\'t have any conversations yet.</string>
+    <string name="write_your_messagez">Please write your message </string>
+    <string name="write_your_message_please">write your message....</string>
+    <string name="write_your_message_chat">Write your message....</string>
+    <string name="name_on_message">Name</string>
+    <string name="description_nabout_yourself">Description \nAbout yourself</string>
+    <string name="enter_small_description">Enter Small Description</string>
+
+    <string name="ask_meLook">Ask me</string>
+    <string name="romantic_relationshipLook">Romantic relationship</string>
+    <string name="flirt_Look">Flirt</string>
+    <string name="something_look">Something casual</string>
+    <string name="friendship_look">Friendship</string>
+    <string name="man_look">a man</string>
+    <string name="women_look">a woman</string>
+    <string name="man_woman_look">a man or woman</string>
+    <string name="enter_phonenumber">Enter PhoneNumber</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="date_of_birth1">Date of Birth</string>
+    <string name="description_profile">Description</string>
+    <string name="continue_description">Continue</string>
+    <string name="likes_screen">Likes</string>
+    <string name="matches_screen">Matches</string>
+    <string name="hometown_profile">Not added yet</string>
+    <string name="profession_notaddedyet">Not added yet</string>
+    <string name="lookingfor__notaddedyet">Not added yet</string>
+    <string name="relationship__notaddedyet">Not added yet</string>
+    <string name="hometown_Add">Add</string>
+    <string name="profession_Add">Add</string>
+    <string name="looking_Add">Add</string>
+    <string name="relationship_add">Add</string>
+    <string name="i_want_lookingFor">I WANT</string>
+    <string name="gender_Lookinngfor">GENDER</string>
+    <string name="what_are_you_looking_for">What are you looking for</string>
+    <string name="your_disability_makes_you_strong_not_weaker_so_don_t_hesitate_to_share_it">Your disability makes you strong not weaker so don\'t hesitate to share it.</string>
+    <string name="enter_your_profession">Enter Your Profession</string>
+    <string name="save_lookingfor">Save</string>
+    <string name="save_music">Save</string>
+    <string name="vendor">vendor</string>
+
+
+</resources>

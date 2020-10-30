@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BecomeVip">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="30dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="105dp"
+            android:src="@drawable/ic_baseline_monetization_on_24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_14_99_month"
+            android:textColor="@color/goldColor"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/you_can_message_any_user_anytime_no_restrictions_and_constraints_to_message_only_matches"
+            android:textColor="@color/goldColor"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/you_can_use_vip_filters_to_find_particular_type_of_person"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/goldColor"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/you_can_see_the_users_who_have_liked_your_profile"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/goldColor"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnSubscribe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="30dp"
+        android:fontFamily="@font/montserrat"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:background="@drawable/roundbutton11"
+        android:text="@string/become_a_vip_now" />
+
+
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+    <TextView
+        android:id="@+id/txtHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:fontFamily="@font/montserrat"
+        android:textStyle="bold"
+        android:text="@string/matches_screen"/>
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/noMatchesRelative"
+        android:layout_below="@+id/txtHead"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/you_don_t_have_any_matches_yet"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:fontFamily="@font/montserrat"
+            android:layout_centerInParent="true"
+            android:textColor="@color/black"
+            android:hint="@string/notmatch"
+            android:textSize="25dp"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/matchesRelative"
+        android:visibility="visible"
+        android:layout_below="@+id/txtHead"
+        android:layout_above="@+id/below"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_below="@+id/relative"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"/>
+        <ProgressBar
+            android:id="@+id/progressNearBy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:progressTint="@color/black"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+</RelativeLayout>

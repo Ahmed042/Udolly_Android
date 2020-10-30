@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+    <TextView
+        android:id="@+id/txtHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:text="@string/blocked_users"/>
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/noLikesRelative"
+        android:layout_below="@+id/txtHead"
+        android:layout_above="@+id/below"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/you_haven_t_blocked_any_user_yet"
+            android:textStyle="bold"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="25dp"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:visibility="visible"
+        android:id="@+id/likesRelative"
+        android:layout_above="@+id/below"
+        android:layout_below="@+id/txtHead"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_below="@+id/relative"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"/>
+        <ProgressBar
+            android:id="@+id/progressNearBy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:progressTint="@color/black"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+</RelativeLayout>

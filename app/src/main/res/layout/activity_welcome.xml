@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Welcome">
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progress="12"
+        android:layout_alignParentTop="true"
+        android:progressTint="@color/AppColor"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp"
+        android:orientation="vertical"
+        android:gravity="bottom">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:src="@mipmap/applogo"/>
+        <TextView
+            android:id="@+id/textViewWelcome"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="@font/montserrat"
+            android:layout_height="wrap_content"
+            android:text="Welcome to Udolly"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/textViewRules"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:fontFamily="@font/montserrat"
+            android:layout_height="wrap_content"
+            android:text="Please follow these house rules"
+            android:textSize="15dp"/>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical">
+                <CheckedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:gravity="start"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/montserrat"
+                    android:textSize="20dp"
+                    android:text="Be yourself."
+                    android:checked="true" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textAlignment="textStart"
+                    android:gravity="start"
+                    android:fontFamily="@font/montserrat"
+                    android:layout_height="wrap_content"
+                    android:text="Make Sure your photos,age and bio are true to who you are"
+                    android:textSize="13dp"/>
+                <CheckedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:gravity="start"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/montserrat"
+                    android:textStyle="bold"
+                    android:text="Stay Safe."
+                    android:checked="true" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textAlignment="textStart"
+                    android:gravity="start"
+                    android:fontFamily="@font/montserrat"
+                    android:layout_height="wrap_content"
+                    android:text="Don't be too quickly to give out your personal information"
+                    android:textSize="13dp"/>
+                <CheckedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:gravity="start"
+                    android:fontFamily="@font/montserrat"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:text="Play it cool."
+                    android:checked="true" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textAlignment="textStart"
+                    android:gravity="start"
+                    android:fontFamily="@font/montserrat"
+                    android:layout_height="wrap_content"
+                    android:text="Respect others and treat them as you would like to be treated."
+                    android:textSize="13dp"/>
+                <CheckedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:gravity="start"
+                    android:fontFamily="@font/montserrat"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:text="Be Proactive."
+                    android:checked="true" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textAlignment="textStart"
+                    android:layout_gravity="center"
+                    android:gravity="start"
+                    android:fontFamily="@font/montserrat"
+                    android:layout_height="wrap_content"
+                    android:text="Always report had behaviour."
+                    android:textSize="13dp"/>
+            </LinearLayout>
+    </LinearLayout>
+        <Button
+            android:id="@+id/btnContinueWelcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="30dp"
+            android:fontFamily="@font/montserrat"
+            android:layout_alignParentBottom="true"
+            android:textColor="@android:color/white"
+            android:background="@drawable/roundbutton2"
+            android:text="I AGREE" />
+
+</RelativeLayout>

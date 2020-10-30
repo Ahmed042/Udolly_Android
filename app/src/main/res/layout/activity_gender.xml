@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Gender">
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progress="36"
+        android:progressTint="@color/AppColor"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I am a"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@android:color/black"
+            android:textSize="40dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical">
+                <Button
+                    android:id="@+id/btnWmn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/montserrat"
+                    android:textColor="@android:color/black"
+                    android:background="@drawable/roundbutton4"
+                    android:text="WOMAN" />
+                <Button
+                    android:id="@+id/btnMn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/roundbutton2"
+                    android:text="MAN" />
+
+
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical"
+           android:layout_alignParentBottom="true"
+           android:gravity="bottom"
+           android:layout_margin="30dp">
+<!--           <CheckBox-->
+<!--               android:id="@+id/checkBox"-->
+<!--               android:layout_width="match_parent"-->
+<!--               android:layout_height="wrap_content"-->
+<!--               android:fontFamily="@font/montserrat"-->
+<!--               android:textAlignment="center"-->
+<!--               android:gravity="center"-->
+<!--               android:text="Show my Gender on my profile" />-->
+           <Button
+               android:id="@+id/btnContinue3"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:fontFamily="@font/montserrat"
+               android:layout_gravity="bottom"
+               android:gravity="center"
+               android:textColor="@android:color/white"
+               android:background="@drawable/roundbutton2"
+               android:text="CONTINUE" />
+       </LinearLayout>
+
+</RelativeLayout>

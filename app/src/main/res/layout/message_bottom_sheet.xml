@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:background="@drawable/bottom_sheet_background"
+    android:id="@+id/bottomSheetContainer">
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:id="@+id/_toolbar"
+        layout="@layout/toolbar_message"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/write_your_messageHeading"
+            android:textColor="@color/black"
+            android:fontFamily="@font/montserrat"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/add_message"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_toLeftOf="@+id/snd_message"
+                android:background="@color/white"
+                android:fontFamily="@font/montserrat"
+                android:hint="@string/write_your_messagez"
+                android:imeOptions="actionDone"
+                android:padding="10dp"
+                android:text="@string/write_your_message_please"
+                android:textColor="@color/black" />
+            <TextView
+                android:id="@+id/snd_message"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:paddingRight="10dp"
+                android:paddingLeft="15dp"
+                android:layout_centerVertical="true"
+                android:layout_height="50dp"
+                android:text=""
+                android:drawableLeft="@drawable/ic_baseline_send_24"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:background="@drawable/roundbutton2"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/zappingicon"
+        android:title="@string/zapping" />
+
+    <item
+        android:id="@+id/navigation_discover"
+        android:icon="@drawable/iconlocation"
+        android:title="@string/nearby" />
+    <item
+        android:id="@+id/navigation_add"
+        android:icon="@drawable/iconlike"
+        android:title="@string/likes" />
+
+    <item
+        android:id="@+id/navigation_inbox"
+        android:icon="@drawable/iconchat"
+        android:title="@string/messages" />
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/iconperfil"
+        android:title="@string/profile" />
+
+</menu>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/idSwipe"
+            android:textSize="30sp"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+    <TextView
+        android:id="@+id/userNameSwipe"
+        android:textSize="30sp"
+        android:textColor="@color/AppColor"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:fontFamily="@font/montserrat"
+        tools:text="Name"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+    <TextView
+        android:id="@+id/userDescriptionSwipe"
+        android:textSize="30sp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/AppColor"
+        android:fontFamily="@font/montserrat"
+        android:gravity="center"
+        tools:text="Description"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" />
+        <TextView
+            android:id="@+id/userDistanceSwipe"
+            android:textSize="30sp"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/AppColor"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center"
+            tools:text="Distance"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+    </LinearLayout>
+    <View
+        android:id="@+id/item_swipe_left_indicator"
+        android:alpha="0"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_margin="10dp"
+        android:background="#A5F" />
+
+    <View
+        android:id="@+id/item_swipe_right_indicator"
+        android:alpha="0"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="right"
+        android:background="#5AF" />
+<!--    <Button-->
+<!--        android:id="@+id/btnZapping"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="bottom"-->
+<!--        android:gravity="center"-->
+<!--        android:layout_margin="30dp"-->
+<!--        android:textColor="@android:color/white"-->
+<!--        android:background="@drawable/roundbutton2"-->
+<!--        android:text="Next"/>-->
+
+</FrameLayout>

@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "694891310035",
+    "firebase_url": "https://datingpro-20c86.firebaseio.com",
+    "project_id": "datingpro-20c86",
+    "storage_bucket": "datingpro-20c86.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:694891310035:android:e8884fe0b5d478490bdd26",
+        "android_client_info": {
+          "package_name": "com.example.datingpro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "694891310035-8komopls9509jr9r82ardnkvevtb1ukn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.datingpro",
+            "certificate_hash": "7e9c88138186e92e6adc6ed0bf1ec3e62de14250"
+          }
+        },
+        {
+          "client_id": "694891310035-64c921k8uip1jg3vbco5il4ptf9iv3be.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.datingpro",
+            "certificate_hash": "cbe0a0bbe7bb2d040945c4002ce6606674390335"
+          }
+        },
+        {
+          "client_id": "694891310035-u0a8t1g5n4dbkb39qhcjpothigs1slpn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSf1XoPiuwtbSutZ0zK23vR56g7TU376o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "694891310035-u0a8t1g5n4dbkb39qhcjpothigs1slpn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
