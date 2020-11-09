@@ -1,5 +1,5 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name">TZ</string>
+    <string name="app_name">UDolly</string>
     <string name="terms">By Clicking Login, you agree with our Terms.
             Learn how we process your data in our Privacy Policy and Cookies Policy</string>
     <string name="minimum_password">Password too short, enter minimum 6 characters!</string>

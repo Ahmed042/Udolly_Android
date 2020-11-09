@@ -1,50 +1,42 @@
 {
   "project_info": {
-    "project_number": "694891310035",
-    "firebase_url": "https://datingpro-20c86.firebaseio.com",
-    "project_id": "datingpro-20c86",
-    "storage_bucket": "datingpro-20c86.appspot.com"
+    "project_number": "54315664521",
+    "firebase_url": "https://udolly-e97dc.firebaseio.com",
+    "project_id": "udolly-e97dc",
+    "storage_bucket": "udolly-e97dc.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:694891310035:android:e8884fe0b5d478490bdd26",
+        "mobilesdk_app_id": "1:54315664521:android:1700b7f41f9b4aad28f258",
         "android_client_info": {
-          "package_name": "com.example.datingpro"
+          "package_name": "com.example.dolly"
         }
       },
       "oauth_client": [
         {
-          "client_id": "694891310035-8komopls9509jr9r82ardnkvevtb1ukn.apps.googleusercontent.com",
+          "client_id": "54315664521-ur8m3odsvu9529a7olor2g5k5efcunvt.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.datingpro",
-            "certificate_hash": "7e9c88138186e92e6adc6ed0bf1ec3e62de14250"
+            "package_name": "com.example.dolly",
+            "certificate_hash": "1cca4e05e91c626b5146148c5ad38ff69aec54ff"
           }
         },
         {
-          "client_id": "694891310035-64c921k8uip1jg3vbco5il4ptf9iv3be.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.datingpro",
-            "certificate_hash": "cbe0a0bbe7bb2d040945c4002ce6606674390335"
-          }
-        },
-        {
-          "client_id": "694891310035-u0a8t1g5n4dbkb39qhcjpothigs1slpn.apps.googleusercontent.com",
+          "client_id": "54315664521-ealt8hfjl4qp916uiv628u4c36f3dno3.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCSf1XoPiuwtbSutZ0zK23vR56g7TU376o"
+          "current_key": "AIzaSyDznGceLmGEJCU-yrWRHJ-RRNbIs3or2tA"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "694891310035-u0a8t1g5n4dbkb39qhcjpothigs1slpn.apps.googleusercontent.com",
+              "client_id": "54315664521-ealt8hfjl4qp916uiv628u4c36f3dno3.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

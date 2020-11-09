@@ -5,7 +5,7 @@ android {
     buildToolsVersion "30.0.0"
 
     defaultConfig {
-        applicationId "com.example.datingpro"
+        applicationId "com.example.dolly"
         minSdkVersion 16
         targetSdkVersion 30
         versionCode 1

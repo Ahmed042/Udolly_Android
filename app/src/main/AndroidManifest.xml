@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.datingpro">
+    package="com.example.dolly">
 
     <application
         android:allowBackup="true"
         android:configChanges="locale|orientation|keyboardHidden"
-        android:icon="@drawable/clone"
+        android:icon="@drawable/applogo"
         android:label="@string/app_name"
         android:largeHeap="true"
         android:noHistory="true"
-        android:roundIcon="@mipmap/applogo"
+        android:roundIcon="@drawable/applogo"
         android:screenOrientation="portrait"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".AddPhotos"></activity>
-        <activity android:name=".BecomeVip" />
-        <activity android:name=".BlockUsers" />
-        <activity android:name=".FullPhoto" />
-        <activity android:name=".FavouriteSports" />
-        <activity android:name=".FilterFavouriteSports" />
-        <activity android:name=".LoginWithPhone" />
-        <activity android:name=".SignUpWithPhone" />
-        <activity android:name=".PhoneVerification" />
-        <activity android:name=".SetLanguage" />
+        <activity android:name="com.example.dolly.AddPhotos"></activity>
+        <activity android:name="com.example.dolly.BecomeVip" />
+        <activity android:name="com.example.dolly.BlockUsers" />
+        <activity android:name="com.example.dolly.FullPhoto" />
+        <activity android:name="com.example.dolly.FavouriteSports" />
+        <activity android:name="com.example.dolly.FilterFavouriteSports" />
+        <activity android:name="com.example.dolly.LoginWithPhone" />
+        <activity android:name="com.example.dolly.SignUpWithPhone" />
+        <activity android:name="com.example.dolly.PhoneVerification" />
+        <activity android:name="com.example.dolly.SetLanguage" />
         <activity
             android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
             android:theme="@style/Base.Theme.AppCompat" />
-        <activity android:name=".ChangePassword" />
-        <activity android:name=".InfoAndTerms" />
-        <activity android:name=".Help" />
-        <activity android:name=".Privacy" />
-        <activity android:name=".Notifications" />
-        <activity android:name=".ChangeEmail" />
+        <activity android:name="com.example.dolly.ChangePassword" />
+        <activity android:name="com.example.dolly.InfoAndTerms" />
+        <activity android:name="com.example.dolly.Help" />
+        <activity android:name="com.example.dolly.Privacy" />
+        <activity android:name="com.example.dolly.Notifications" />
+        <activity android:name="com.example.dolly.ChangeEmail" />
         <activity
             android:name="com.facebook.FacebookActivity"
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
@@ -49,160 +49,160 @@
                 <data android:scheme="@string/fb_login_protocol_scheme" />
             </intent-filter>
         </activity>
-        <activity android:name=".DateOfBirth" />
-        <activity android:name=".ImageShow" />
+        <activity android:name="com.example.dolly.DateOfBirth" />
+        <activity android:name="com.example.dolly.ImageShow" />
         <activity
-            android:name=".FilterKids"
+            android:name="com.example.dolly.FilterKids"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".FilterDiet"
+            android:name="com.example.dolly.FilterDiet"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".FilterPets"
+            android:name="com.example.dolly.FilterPets"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".FilterTattoos"
+            android:name="com.example.dolly.FilterTattoos"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".FilterExercise"
+            android:name="com.example.dolly.FilterExercise"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".FilterDrinking"
+            android:name="com.example.dolly.FilterDrinking"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".FilterLanguage"
+            android:name="com.example.dolly.FilterLanguage"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".FilterBodyType"
+            android:name="com.example.dolly.FilterBodyType"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".FilterReligion"
+            android:name="com.example.dolly.FilterReligion"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".FilterSmoker"
+            android:name="com.example.dolly.FilterSmoker"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".FilterEducation"
+            android:name="com.example.dolly.FilterEducation"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".FilterBodyHeight"
+            android:name="com.example.dolly.FilterBodyHeight"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".FilterRelationshipStatus"
+            android:name="com.example.dolly.FilterRelationshipStatus"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".FilterProfession"
+            android:name="com.example.dolly.FilterProfession"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".FilterDisability"
+            android:name="com.example.dolly.FilterDisability"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".FilterDistance"
+            android:name="com.example.dolly.FilterDistance"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".FilterAge"
+            android:name="com.example.dolly.FilterAge"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".FilterGender"
+            android:name="com.example.dolly.FilterGender"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Account"
+            android:name="com.example.dolly.Account"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".UpdateName"
+            android:name="com.example.dolly.UpdateName"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".UpdateDisability"
+            android:name="com.example.dolly.UpdateDisability"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".UpdateDescription"
+            android:name="com.example.dolly.UpdateDescription"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Kids"
+            android:name="com.example.dolly.Kids"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Diet"
+            android:name="com.example.dolly.Diet"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Music"
+            android:name="com.example.dolly.Music"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Pets"
+            android:name="com.example.dolly.Pets"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Tattoos"
+            android:name="com.example.dolly.Tattoos"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Exercise"
+            android:name="com.example.dolly.Exercise"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Drinking"
+            android:name="com.example.dolly.Drinking"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".LanguagesSpeak"
+            android:name="com.example.dolly.LanguagesSpeak"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".BodyType"
+            android:name="com.example.dolly.BodyType"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Religion"
+            android:name="com.example.dolly.Religion"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Smoke"
+            android:name="com.example.dolly.Smoke"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Education"
+            android:name="com.example.dolly.Education"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Chat"
+            android:name="com.example.dolly.Chat"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Description"
+            android:name="com.example.dolly.Description"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".MapPlacePicker"
+            android:name="com.example.dolly.MapPlacePicker"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Height"
+            android:name="com.example.dolly.Height"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".RelationshipStatus"
+            android:name="com.example.dolly.RelationshipStatus"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".LookingFor"
+            android:name="com.example.dolly.LookingFor"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Profession"
+            android:name="com.example.dolly.Profession"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".HomeTown"
+            android:name="com.example.dolly.HomeTown"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ProfileDetail"
+            android:name="com.example.dolly.ProfileDetail"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".SelectProfileImage"
+            android:name="com.example.dolly.SelectProfileImage"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ForgetPassword"
+            android:name="com.example.dolly.ForgetPassword"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".SignUp"
+            android:name="com.example.dolly.SignUp"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".SentLikes"
+            android:name="com.example.dolly.SentLikes"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Settings"
+            android:name="com.example.dolly.Settings"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Filter"
+            android:name="com.example.dolly.Filter"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ProfileEdit"
+            android:name="com.example.dolly.ProfileEdit"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Splash"
+            android:name="com.example.dolly.Splash"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -215,39 +215,39 @@
                 android:value="AIzaSyDACf-X51_FZtM_HDLOiQjTyAEHkvrlbxg" />
         </activity>
         <activity
-            android:name=".MainHome"
+            android:name="com.example.dolly.MainHome"
             android:hardwareAccelerated="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Profile"
+            android:name="com.example.dolly.Profile"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Zapping"
+            android:name="com.example.dolly.Zapping"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Disability"
+            android:name="com.example.dolly.Disability"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Location"
+            android:name="com.example.dolly.Location"
             android:screenOrientation="portrait">
             <meta-data
                 android:name="com.google.android.geo.API_KEY"
                 android:value="AIzaSyDACf-X51_FZtM_HDLOiQjTyAEHkvrlbxg" />
         </activity>
         <activity
-            android:name=".Welcome"
+            android:name="com.example.dolly.Welcome"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Gender"
+            android:name="com.example.dolly.Gender"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".FirstName"
+            android:name="com.example.dolly.FirstName"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Login_Activity"
+            android:name="com.example.dolly.Login_Activity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.dolly.MainActivity"
             android:screenOrientation="portrait" />
 
         <meta-data

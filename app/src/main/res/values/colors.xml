@@ -13,7 +13,7 @@
     <color name="black">#000000</color>
     <color name="white">#fff</color>
     <color name="transparent">#00000000</color>
-    <color name="color_FF0041">#ff2c54</color>
+    <color name="color_red">#E41A40</color>
     <color name="color_tag">#9B9B9B</color>
     <color name="color_link">#FFDDA4</color>
     <color name="color_00BC1B">#00BC1B</color>
@@ -25,4 +25,5 @@
     <color name="color_qqzone_iconbg">#FF9F00</color>
     <color name="color_more_iconbg">#256EB2</color>
     <color name="color_blue">#2277C6</color>
+    <color name="color_dblue">#0A62B3</color>
 </resources>
